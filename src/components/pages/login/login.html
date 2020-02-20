@@ -1,7 +1,39 @@
 <div class="login-page-container">
     <div class="login-page-elements">
-        <img src="" alt="" class="login-page-logo">
-        <h1 class="login-page-text-branch">Save Money</h1>
-        <div class="login-page-form-login"></div>
+        <div class="logo-page-branch">
+            <img src="/assets/logo.svg" alt="" class="login-page-logo" />
+            <label class="login-page-text-branch">Save Money</label>
+        </div>
+        <div class="login-page-form-login">
+            <md-card>
+                <md-card-header>
+                    <div class="md-title">Login</div>
+                </md-card-header>
+
+                <md-card-content>
+                    <div class="login-by-social">
+                        <span>Using social networking accounts</span>
+                        <div class="login-by-social-btns">
+                            <md-button class="md-raised login-by-social-fb" :md-ripple="false">
+                                <span class="login-by-social-icon"><i class="fab fa-facebook-f"></i></span>
+                                <span class="login-by-social-name">FACEBOOK</span>
+                            </md-button>
+                            <md-button class="md-raised login-by-social-gg" :md-ripple="false">
+                                <span class="login-by-social-icon"><i class="fab fa-google"></i></span>
+                                <span class="login-by-social-name">GOOGLE</span>
+                            </md-button>
+                        </div>
+                    </div>
+                    <div class="login-by-username">
+                        <span>Using Save Money account</span>
+                    </div>
+                </md-card-content>
+
+                <md-card-actions>
+                    <md-button>Action</md-button>
+                    <md-button>Action</md-button>
+                </md-card-actions>
+            </md-card>
+        </div>
     </div>
 </div>
