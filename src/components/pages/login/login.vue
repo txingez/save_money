@@ -2,7 +2,10 @@
 
 <script>
 export default {
-  name: "Login"
+  name: "Login",
+  data: () => ({
+    type: null
+  })
 };
 </script>
 
